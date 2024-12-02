@@ -12,6 +12,8 @@ export const withErrorPage = <T extends object>(Component: ComponentType<T>) => 
     useEffect(() => {
         if (characters[heroId]) {
             changeHero(heroId);
+        }else {
+            changeHero()
         }
 
     }, [heroId])
