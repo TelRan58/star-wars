@@ -37,7 +37,6 @@ const AboutMe = ({heroId}: AboutMeProps) => {
                     }));
                 })
         }
-
     }, [heroId])
 
     return (
